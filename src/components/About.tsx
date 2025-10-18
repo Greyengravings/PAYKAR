@@ -4,7 +4,7 @@ import makeInIndiaLogo from "@/assets/make-in-india.png";
 
 const About = () => {
   return (
-    <section className="py-24 px-4 relative overflow-hidden">
+    <section className="py-24 px-2 md:px-4 relative overflow-hidden">
       <div className="container mx-auto relative z-10">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
@@ -20,7 +20,7 @@ const About = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-6 mb-12">
+          <div className="grid md:grid-cols-3 gap-4 md:gap-6 mb-12">
             <Card className="p-6 bg-card border-border text-center group hover:border-primary/50 transition-all">
               <div className="inline-flex p-4 rounded-2xl bg-primary/10 mb-4">
                 <Award className="h-8 w-8 text-primary" />
@@ -52,7 +52,7 @@ const About = () => {
             </Card>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-3 gap-4 md:gap-6">
             <Card className="md:col-span-3 p-8 md:p-12 bg-gradient-to-br from-card to-secondary/50 border-border">
               <div className="max-w-3xl mx-auto text-center space-y-6">
                 <h3 className="text-2xl md:text-3xl font-bold text-foreground">
