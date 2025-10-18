@@ -73,7 +73,7 @@ const features = [
 
 const Features = () => {
   return (
-    <section className="py-24 px-4 relative overflow-hidden">
+    <section className="py-24 px-2 md:px-4 relative overflow-hidden">
       {/* Background decoration */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
       
@@ -88,7 +88,7 @@ const Features = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 max-w-7xl mx-auto">
           {features.map((feature, index) => (
             <Card 
               key={index}
